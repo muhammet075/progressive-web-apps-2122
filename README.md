@@ -1,6 +1,6 @@
 # Progressive Web Apps @cmda-minor-web · 2021/22
 
-![pwa](https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png)
+<img src="https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png" alt="PWA" width="200px"/>
 
 ## Table of Contents
 - [Synopsis](#synopsis)
