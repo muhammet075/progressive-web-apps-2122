@@ -1,0 +1,76 @@
+
+
+
+<div class="emptyState">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+<% for (let i = 0; i < array.length; i++) {%>
+        <div class="cryptoContainer <%= array[i].name %>">
+        <div class="cryptoGegevens  <%= array[i].name %>" tabindex="4">
+            <ul>
+            <li><img class="cryptoLogo" src=" <%= array[i].image %>"></li>
+            <li> <%= array[i].symbol %></li>
+            <li><h3 class="cryptoNaam"> <%= array[i].name %></h3></li>
+            <li>Price</li>
+            <li>&#8364  <%= array[i].current_price %></li>
+            <li>Market cap</li>
+            <li>&#8364  <%= array[i].market_cap %></li>
+            <li>Change</li>
+            <li class="percentageVerandering"> <%= array[i].price_change_percentage_24h %></li>
+            <li>Last update</li>
+            <li><%= array[i].last_updated %></li>
+            <li class="sluiten"><i class="fa-solid fa-xmark"></i></li>
+            </ul>  
+            </div>
+            <button class="cryptobutton <%= array[i].name %>" value="<%= array[i].name %>, <%= array[i].current_price %>"> <i class="fa-solid fa-bell"></i> </button>
+            </div>
+      <%}%>

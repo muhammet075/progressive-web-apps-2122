@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>PWA</title>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- GOOGLE FONT -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Kanit"
+    />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/e367b28ca4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1><a href="/">CryptoAbi</a></h1>
+
+        <ul>
+          <li>
+            <button id="belKnop">
+              <a href="#favorite"><i class="fa-solid fa-bell"></i></a>
+            </button>
+          </li>
+          <li>
+            <button id="zoekenKnop">
+              <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </button>
+          </li>
+        </ul>
+      </header>
+
+      <div class="zoekbalk">
+        <button id="zoekenSluiten"><i class="fa-solid fa-xmark"></i></button>
+        <h2>Search</h2>
+        <input id="zoekVeld" />
+        <button id="extraZoeken">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <img src="img/container-scheider.svg" alt="Header scheider" />
+
+      <div class="favorieten">
+        <button id="sluitFavorieten"><i class="fa-solid fa-xmark"></i></button>
+        <p class="favorietLijst">You don't have a favorite coin.</p>
+      </div>
+
+      <div class="aboutPage">
+        <button id="sluitAbout"><i class="fa-solid fa-xmark"></i></button>
+        <article>
+          <section>
+            <h2>CryptoAbi</h2>
+            <p>
+              CryptoAbi helps you with all your crypto solutions. You can easly
+              set a alert push-up on a specifik price on each crypto coin which
+              you choose. We will always send you a notification message when
+              the price of a coin hits the price of your wish..
+            </p>
+          </section>
+
+          <section>
+            <img src="img/bitcoin.svg" alt="Image of a bitcoin" />
+          </section>
+
+          <section>
+            <h3>How it works?</h3>
+            <p>
+              Easy! Click on the search icon on top of the app. Write your
+              favorite coin and click on the search button. Then click on yout
+              coin on the search results. Then you will see the current price,
+              market cap, change and the last update time. If you like it, you
+              can add the coin on your favorite list. Press on the closing
+              button, on the top. Then press on the bell icon, on the corner.
+            </p>
+          </section>
+        </article>
+      </div>
+
+      <main>
+        <article>
+          <section>
+            <img src="img/crypto.svg" alt="2 personen met een crypto munt" />
+            <h2>Your CryptoAbi</h2>
+            <p>
+              CryptoAbi helps you with all your crypto solutions. Check the
+              current course and price of your favorite crypto coin. Add one of
+              them on to your favorites.
+            </p>
+            <label>
+              <button id="openAbout">
+                <a href="#about">More about crypto Abi</a>
+              </button>
+              <button id="coinKnop">
+                <a href="#coins"
+                  >Coins <i class="fa-solid fa-caret-right"></i
+                ></a>
+              </button>
+            </label>
+          </section>
+        </article>
+
+        <button id="resultatenResetten">
+          <i class="fa-solid fa-filter-circle-xmark"></i>
+        </button>
+
+        <div class="cryptoInfo"><%- body %></div>
+      </main>
+
+      <img src="img/footer-scheider.svg" alt="Header scheider" />
+      <footer>
+        <section>
+          <p>&#169; CryptoAbi - Copyright <span id="huidigJaar">jaar</span></p>
+        </section>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
