@@ -1,4 +1,4 @@
-# Progressive Web Apps @cmda-minor-web · 2021/22 [![Netlify Status](https://api.netlify.com/api/v1/badges/6f6ef995-91e3-4f6e-ab4e-7eb2f7d2d605/deploy-status)](https://app.netlify.com/sites/pwa-cmd/deploys)
+# Progressive Web Apps @cmda-minor-web · 2021/22 
 
 <img src="https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png" alt="PWA" width="200px"/>
 
