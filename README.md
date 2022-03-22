@@ -54,8 +54,8 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
   npm start
 ```
 
-## Live Demo 🚀
-<a href="https://pwa-cmd.netlify.app/">https://pwa-cmd.netlify.app/</a>
+## Live Demo Heroku🚀
+<a href="https://pwa-cmd.herokuapp.com/">https://pwa-cmd.herokuapp.com/</a>
 <br/>
 
 
