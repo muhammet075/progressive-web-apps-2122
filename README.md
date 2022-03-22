@@ -55,7 +55,7 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 ```
 
 ## Live Demo 🚀
-<a href="https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html">https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html</a>
+<a href="https://pwa-cmd.netlify.app/">https://pwa-cmd.netlify.app/</a>
 <br/>
 
 
