@@ -4,14 +4,12 @@ const app = express();
 const port = process.env.PORT || 5000;
 const fetch = (...args) =>
   import("node-fetch").then(({ default: fetch }) => fetch(...args));
-var timeout = require("connect-timeout");
 
 //de css, img en js map in de public map gebruiken
 app.use(express.static("public"));
 app.use("/css", express.static(__dirname + "public.css"));
 app.use("/img", express.static(__dirname + "public.img"));
 app.use("/js", express.static(__dirname + "public.js"));
-var timeout = require("connect-timeout");
 
 //express layout mobiel formaat en ejs gebruiken
 app.use(expressLayouts);
