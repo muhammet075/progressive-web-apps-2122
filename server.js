@@ -1,4 +1,5 @@
 const express = require("express");
+var compression = require("compression");
 const expressLayouts = require("express-ejs-layouts");
 const app = express();
 const port = process.env.PORT || 5000;
@@ -10,6 +11,7 @@ app.use(express.static("public"));
 app.use("/css", express.static(__dirname + "public.css"));
 app.use("/img", express.static(__dirname + "public.img"));
 app.use("/js", express.static(__dirname + "public.js"));
+app.use(compression());
 
 //express layout mobiel formaat en ejs gebruiken
 app.use(expressLayouts);
