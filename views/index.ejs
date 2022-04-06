@@ -54,7 +54,12 @@
         <div class="cryptoContainer <%= array[i].name %>">
         <div class="cryptoGegevens  <%= array[i].name %>">
             <ul>
-            <li><img class="cryptoLogo" src=" <%= array[i].image %>" alt="array[i].name"></li>
+            <li>
+            <picture>
+            <source srcset="<%= array[i].image %>">
+            <img class="cryptoLogo" src=" <%= array[i].image %>" alt="array[i].name" width="40px">
+            </picture>
+            </li>
             <li> <%= array[i].symbol %></li>
             <li><h3 class="cryptoNaam"> <%= array[i].name %></h3></li>
             <li>Price</li>
