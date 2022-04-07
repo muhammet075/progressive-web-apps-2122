@@ -7,13 +7,13 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 <br/>
 
 ## Server side
-## Performance
+### Performance
 Before:<br/>
-<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="200px"/>
+<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="250px"/>
 <br/>
 After:<br/>
-<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="200px"/><br/>
-Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik heb bijvoorbeeld de afbeeldingen die uit de API worden gehaald eerst met de ware grote opgehaald en vervolgens met logica JavaScript heb ik de waarde meegegeven en heb ik het later kleiner weergegeven
+<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="250px"/><br/>
+Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik heb bijvoorbeeld de afbeeldingen die uit de API worden gehaald eerst met de ware grote opgehaald met behulpt van Probe en vervolgens met logica JavaScript heb ik de waarde meegegeven en heb ik het later kleiner weergegeven
 ```
       Promise.all(
         array.map(async (item) => {
@@ -27,7 +27,13 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
         });
       });
 ```
+<br/><br/>
 
+### Cache, Service worker & manifest
+<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="300px"/><br/>
+<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="300px"/><br/>
+<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="300px"/><br/>
+<br/><br/>
 
 ## Interface Elementen
 <img src="https://i.ibb.co/NWDL289/interface-elementen.png" alt="Interface elementen van de app" width="600px"/>
