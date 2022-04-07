@@ -25,7 +25,7 @@ app.get("/", handleApi, (req, res) => {
 
 async function handleApi(req, res) {
   const cryptoApi = await fetch(
-    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=200&page=1&sparkline=false"
+    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=20&page=1&sparkline=false"
   )
     .then((res) => res.json())
     .then((json) => {
