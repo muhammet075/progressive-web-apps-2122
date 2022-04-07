@@ -6,6 +6,29 @@
 CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
 <br/>
 
+## Server side
+## Performance
+Before:<br/>
+<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="200px"/>
+<br/>
+After:<br/>
+<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="200px"/><br/>
+Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik heb bijvoorbeeld de afbeeldingen die uit de API worden gehaald eerst met de ware grote opgehaald en vervolgens met logica JavaScript heb ik de waarde meegegeven en heb ik het later kleiner weergegeven
+```
+      Promise.all(
+        array.map(async (item) => {
+          let result = await probe(item.image);
+          item.metadata = result;
+          return item;
+        })
+      ).then((results) => {
+        res.render("index", {
+          array: results,
+        });
+      });
+```
+
+
 ## Interface Elementen
 <img src="https://i.ibb.co/NWDL289/interface-elementen.png" alt="Interface elementen van de app" width="600px"/>
 
@@ -18,8 +41,9 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 ## Dependencies
 * NodeJS
 * Express
-* Express-ejs-layouts
 * EJS
+* Express-EJS-Layouts
+* Probe
 * Node-Fetch
 * HTML, CSS & JS
 * <a href="https://fontawesome.com/">Font Awesome</a>
