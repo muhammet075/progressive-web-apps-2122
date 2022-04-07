@@ -7,9 +7,9 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 <br/>
 
 ### Cache, Service worker & manifest
-<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="500px"/><br/>
-<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="500px"/><br/>
-<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="500px"/><br/>
+<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="400px"/><br/>
+<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="400px"/><br/>
+<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="400px"/><br/>
 <br/><br/>
 
 
