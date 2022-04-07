@@ -16,10 +16,10 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 ## Server side
 ### Performance
 Before:<br/>
-<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="250px"/>
+<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="350px"/>
 <br/>
 After:<br/>
-<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="250px"/><br/>
+<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="350px"/><br/>
 Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik heb bijvoorbeeld de afbeeldingen die uit de API worden gehaald eerst met de ware grote opgehaald met behulpt van Probe en vervolgens met logica JavaScript heb ik de waarde meegegeven en heb ik het later kleiner weergegeven
 ```
       Promise.all(
