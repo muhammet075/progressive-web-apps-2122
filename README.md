@@ -6,6 +6,13 @@
 CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
 <br/>
 
+### Cache, Service worker & manifest
+<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="500px"/><br/>
+<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="500px"/><br/>
+<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="500px"/><br/>
+<br/><br/>
+
+
 ## Server side
 ### Performance
 Before:<br/>
@@ -27,12 +34,6 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
         });
       });
 ```
-<br/><br/>
-
-### Cache, Service worker & manifest
-<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="300px"/><br/>
-<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="300px"/><br/>
-<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="300px"/><br/>
 <br/><br/>
 
 ## Interface Elementen
