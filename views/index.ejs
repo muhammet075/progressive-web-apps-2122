@@ -1,64 +1,9 @@
-<div class="emptyState">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-
-            </div>
-
 <% for (let i = 0; i < array.length; i++) {%>
         <div class="cryptoContainer <%= array[i].name %>">
         <div class="cryptoGegevens  <%= array[i].name %>">
             <ul>
             <li>
-            <picture>
-            <source srcset="<%= array[i].image %>">
-            <img class="cryptoLogo" src=" <%= array[i].image %>" alt="array[i].name" width="40px">
-            </picture>
+            <img class="cryptoLogo" loading="lazy" src="<%= array[i].image %>" alt="<%= array[i].name %>" height="<%= array[i].metadata.height %>" width="<%= array[i].metadata.width %>">
             </li>
             <li> <%= array[i].symbol %></li>
             <li><h3 class="cryptoNaam"> <%= array[i].name %></h3></li>
