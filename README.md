@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png" alt="PWA" width="200px"/>
 
 ## Single Page App - CryptoAbi
-CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
+CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 20 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
 <br/>
 
 ## Activity Diagram
