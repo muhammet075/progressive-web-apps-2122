@@ -6,6 +6,9 @@
 CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
 <br/>
 
+## Activity Diagram
+<img src="https://i.ibb.co/Vw5K22y/Middel-3.png" alt="diagram" width="700px"/>
+<br/><br/>
 
 ### Caching
 Op de screenshots hieronder zie je links de app met internet verbinding. Op de rechter screenshot zie je dat de app gecached is en er geen verbinding met het internet beschikbaar is.<br/><br/>
@@ -73,7 +76,6 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
 * HTML, CSS & JS
 * <a href="https://fontawesome.com/">Font Awesome</a>
 * <a href="https://www.coingecko.com/en/api/documentation">Coingecko Crypto API</a>
-* <a href="https://fonts.google.com/specimen/Kanit">Google Fonts - Kanit </a>
 * <a href="https://storyset.com/">Storyset Illustrations</a>
 <br/>
 
