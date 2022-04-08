@@ -1,2 +1,0 @@
-const cacheName="v2";self.addEventListener("install",e=>{console.log("Service Worker: Geinstalleerd")}),self.addEventListener("active",e=>{console.log("Service Worker: Geactiveerd"),e.waitUntill(caches.keys().then(e=>Promise.all(e.map(e=>("v2"!==e&&console.log("oude cash verwijderd"),caches.delete(cashe))))))}),self.addEventListener("fetch",e=>{console.log("Service Working: Fetching"),e.respondWith(fetch(e.request).then(c=>{const t=c.clone();return
-    
