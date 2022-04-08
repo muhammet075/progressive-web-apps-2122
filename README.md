@@ -79,10 +79,6 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
 * <a href="https://storyset.com/">Storyset Illustrations</a>
 <br/>
 
-## Activity Diagram
-<img src="https://i.ibb.co/NrGjkd8/activitydiagram.png" alt="Activity Diagram"/>
-<br/>
-<br/>
 
 ## Installeren
 1. Clone de repository<br/>
