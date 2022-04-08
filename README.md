@@ -117,4 +117,8 @@ Op de clinet side JavaScript heb ik ervoor gezorgd dat de gebruiker kan zoeken t
 <br/>
 
 ## Bronnen
-<a href="https://github.com/muhammet075/web-app-from-scratch-2122/wiki/Bronnen">Bronnenlijst</a>
+* https://www.youtube.com/watch?v=kT3qSf7jG5c
+* https://developer.chrome.com/docs/workbox/service-worker-overview/
+* https://web.dev/progressive-web-apps/
+* https://web.dev/why-speed-matters/
+* https://web.dev/user-centric-performance-metrics/
