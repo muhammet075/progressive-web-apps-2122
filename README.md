@@ -8,7 +8,7 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 
 
 ### Caching
-Op de screenshots hieronder zie je links de app met internet verbinding. Op de rechter screenshot zie je dat de app gecached is en er geen verbinding met het internet beschikbaar is.<br/>
+Op de screenshots hieronder zie je links de app met internet verbinding. Op de rechter screenshot zie je dat de app gecached is en er geen verbinding met het internet beschikbaar is.<br/><br/>
 <img src="https://i.ibb.co/tcM7WHN/cache.png" alt="cache" width="500px"/><br/><br/>
 
 
