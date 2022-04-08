@@ -14,7 +14,7 @@ Op de screenshots hieronder zie je links de app met internet verbinding. Op de r
 
 ### Cache, Service worker & manifest
 De '/' route (html), CSS, JavaScript (voor de client side functies) en de afbeelding voor op de home pagina worden gecached<br/>
-<img src="https://i.ibb.co/n1C44TG/gecaht.png" alt="cache" width="700px"/>
+<img src="https://i.ibb.co/n1C44TG/gecaht.png" alt="cache" width="800px"/>
 <br/><br/>
 
 Niet HTML elementen worden gecached met 'max-age=31536000;<br/>
