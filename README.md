@@ -7,10 +7,22 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 <br/>
 
 ### Cache, Service worker & manifest
-<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="400px"/><br/>
-<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="400px"/><br/>
-<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="400px"/><br/>
+De CSS file wordt gecashed<br/>
+<img src="https://i.ibb.co/12vPxcX/cache.png" alt="cache" width="400px"/>
 <br/><br/>
+
+Niet HTML elementen worden gecached met 'max-age=31536000;<br/>
+<img src="https://i.ibb.co/VtWM9Bd/Schermafbeelding-2022-04-08-om-13-30-48.png" alt="cache" width="400px"/>
+<br/><br/>
+
+Serivice worker<br/>
+<img src="https://i.ibb.co/CmVHcLZ/serviceworker.png" alt="service worker" width="400px"/>
+<br/><br/>
+
+Manifest<br/>
+<img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="400px"/>
+<br/><br/>
+
 
 
 ## Server side
