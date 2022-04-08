@@ -58,7 +58,7 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
 <br/><br/>
 
 ## Interface Elementen
-<img src="https://i.ibb.co/NWDL289/interface-elementen.png" alt="Interface elementen van de app" width="600px"/>
+<img src="https://i.ibb.co/ChZFcf9/schermen.png" alt="Interface elementen van de app" width="600px"/>
 
 ## Features List 🖇
 * Zoeken & Filteren
