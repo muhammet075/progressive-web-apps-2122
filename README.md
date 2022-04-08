@@ -35,6 +35,7 @@ Manifest<br/>
 
 
 ## Server side
+Op de server side stel ik de route's in, haal ik de API op en fetch ik het. Vervolgens met EJS render ik de data die uit de API komt op de home pagina.
 ### Performance
 Before:<br/>
 <img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="350px"/>
@@ -55,6 +56,10 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
         });
       });
 ```
+<br/><br/>
+
+## Client side
+Op de clinet side JavaScript heb ik ervoor gezorgd dat de gebruiker kan zoeken tussen coins (op classnaam basis en met classlist toggle), dat de gebruiker de coins in de favorietenlijst kan toevoegen.
 <br/><br/>
 
 ## Interface Elementen
