@@ -59,7 +59,7 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
 <br/><br/>
 
 ## Client side
-Op de clinet side JavaScript heb ik ervoor gezorgd dat de gebruiker kan zoeken tussen coins (op classnaam basis en met classlist toggle), dat de gebruiker de coins in de favorietenlijst kan toevoegen.
+Op de client side JavaScript heb ik ervoor gezorgd dat de gebruiker kan zoeken tussen coins (op classnaam basis en met classlist toggle) en dat de gebruiker de coins in de favorietenlijst kan toevoegen. Verder kan de gebruiker klikken op buttons en dat er met classlist's getoggled worden. De client side JavaScript is om de user experience te verbeteren. Ik vind dus dat het zoeken op verschillende soorten coins op de client side juist is, omdat ik tussen classnamen filter en dat staat dus op de client en niet in de server side.
 <br/><br/>
 
 ## Interface Elementen
