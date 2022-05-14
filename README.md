@@ -32,16 +32,17 @@ Manifest<br/>
 <img src="https://i.ibb.co/gWvQss2/manifest.png" alt="manifest" width="400px"/>
 <br/><br/>
 
+## Lijst met optimalisaties
+* Lighthouse rapport gemaakt en daaraan de verbeteringen aanbrengen
+* Client side JavaScript minified
+* Afbeeldingen uit de API met Probe kleinere waarde gegeven
+* 20 coins per call met de API call uitvoeren in plaats van 200 zoals eerst
+* "defer" toegevoeged op minder belangijke script bestanden en externe JS bestanden
+* font-display swap gegeven
+* Compression gebruikt
+* Caching headers gebruikt 
 
-
-## Server side
 Op de server side stel ik de route's in, haal ik de API op en fetch ik het. Vervolgens met EJS render ik de data die uit de API komt op de home pagina.
-### Performance
-Before:<br/>
-<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="350px"/>
-<br/>
-After:<br/>
-<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="350px"/><br/>
 Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik heb bijvoorbeeld de afbeeldingen die uit de API worden gehaald eerst met de ware grote opgehaald met behulpt van Probe en vervolgens met logica JavaScript heb ik de waarde meegegeven en heb ik het later kleiner weergegeven
 ```
       Promise.all(
@@ -56,6 +57,12 @@ Om de performance van mijn app te verbeteren heb ik het een en ander gedaan. Ik 
         });
       });
 ```
+
+Before:<br/>
+<img src="https://i.ibb.co/YP5TsxH/slecht-performance.png" width="350px"/>
+<br/>
+After:<br/>
+<img src="https://i.ibb.co/9w09p7f/goed-performance.png" width="350px"/><br/>
 <br/><br/>
 
 ## Client side
