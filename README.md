@@ -34,7 +34,7 @@ Manifest<br/>
 
 ## Lijst met optimalisaties
 * Lighthouse rapport gemaakt en daaraan de verbeteringen aanbrengen
-* Client side JavaScript minified
+* Client side JavaScript/CSS/HTML minified
 * Afbeeldingen uit de API met Probe kleinere waarde gegeven
 * 20 coins per call met de API call uitvoeren in plaats van 200 zoals eerst
 * "defer" toegevoeged op minder belangijke script bestanden en externe JS bestanden
