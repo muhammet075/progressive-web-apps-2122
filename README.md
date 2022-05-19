@@ -16,16 +16,14 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 20 g
 
 ### Caching
 Op de screenshots hieronder zie je als de gebruiker de app opent krijgt de gebruiker een res.render met de index HTML bestand. Als dat geopend is dan wordt er een array gemaakt met de bestanden die gecached gaat worden. Vervolgens wordt de array in de service worker geinstalleerd en daarna wordt de service worker geactiveerd. Vervolgens wordt er gekeken of er een oude cache was, zo ja wordt die vervangen met de nieuwe cache. Vervolgens wordt de cache gefetcht.<br/><br/>
+
+Hier onder zie je het verschil tussen online en offline.<br/>
 <img src="https://i.ibb.co/tcM7WHN/cache.png" alt="cache" width="500px"/><br/><br/>
 
 
 ### Cache, Service worker & manifest
 De '/' route (html), CSS, JavaScript (voor de client side functies, zoals details pagina openen van crypto coins) en de afbeelding voor op de home pagina worden gecached<br/>
 <img src="https://i.ibb.co/n1C44TG/gecaht.png" alt="cache" width="800px"/>
-<br/><br/>
-
-Niet HTML elementen worden gecached met 'max-age=31536000;<br/>
-<img src="https://i.ibb.co/VtWM9Bd/Schermafbeelding-2022-04-08-om-13-30-48.png" alt="cache" width="400px"/>
 <br/><br/>
 
 Serivice worker<br/>
