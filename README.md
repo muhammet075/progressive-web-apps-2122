@@ -7,15 +7,15 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 20 g
 <br/>
 
 ## Activity Diagram
-<img src="https://i.ibb.co/Vw5K22y/Middel-3.png](https://i.ibb.co/VBvvFzX/activiydiagram.png" alt="diagram" width="700px"/>
+<img src="https://i.ibb.co/VBvvFzX/activiydiagram.png" width="700px">
 <br/><br/>
 
 ## Service Worker
-<img src="https://i.ibb.co/Vw5K22y/Middel-3.png](https://i.ibb.co/VBvvFzX/activiydiagram.png)](https://i.ibb.co/H4Lqpsz/serviceworker.png)" alt="diagram" width="700px"/>
+<img src="https://i.ibb.co/H4Lqpsz/serviceworker.png" width="700px">
 <br/><br/>
 
 ### Caching
-Op de screenshots hieronder zie je links de app met internet verbinding. Op de rechter screenshot zie je dat de app gecached is en er geen verbinding met het internet beschikbaar is.<br/><br/>
+Op de screenshots hieronder zie je als de gebruiker de app opent krijgt de gebruiker een res.render met de index HTML bestand. Als dat geopend is dan wordt er een array gemaakt met de bestanden die gecached gaat worden. Vervolgens wordt de array in de service worker geinstalleerd en daarna wordt de service worker geactiveerd. Vervolgens wordt er gekeken of er een oude cache was, zo ja wordt die vervangen met de nieuwe cache. Vervolgens wordt de cache gefetcht.<br/><br/>
 <img src="https://i.ibb.co/tcM7WHN/cache.png" alt="cache" width="500px"/><br/><br/>
 
 
